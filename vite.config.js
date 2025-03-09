@@ -10,5 +10,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
       '@assets': path.resolve(__dirname, 'src/assets'),
     }
-  }
+  },
+  base: "https://neihyud.github.io/WGT_Test/"
 })
