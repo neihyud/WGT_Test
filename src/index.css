@@ -152,3 +152,93 @@ img {
 .spacer-10 {
   padding-top: 40px;
 }
+
+@media (max-width: 1440px) {
+
+  .card__text--first,
+  .card__text--second {
+    position: unset;
+  }
+
+  .introduce-detail {
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+  }
+
+  .introduce-detail .card {
+    border-radius: 24px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: unset;
+  }
+
+  .introduce-detail__text {
+    width: 100%;
+    padding: 38px 28px;
+  }
+
+  .item-4 {
+    order: 3;
+  }
+
+  .item-3 {
+    order: 4;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 8px
+  }
+
+  .introduce {
+    width: 100%;
+  }
+
+  .section__title {
+    font-family: Lora;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .introduce__image-group {
+    gap: 4px;
+    margin-top: 48px;
+    padding: 0;
+  }
+
+  .introduce__image {
+    border-radius: 16px;
+    overflow: hidden;
+    width: 178px;
+    height: auto;
+  }
+
+  .introduce>p {
+    font-size: 14px;
+  }
+
+  .card__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .card__subtitle {
+    font-size: 18px;
+  }
+
+  .card__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .introduce-detail {
+    width: 100%;
+    padding: 0;
+  }
+
+}
